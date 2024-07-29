@@ -17,3 +17,16 @@ cabeçalho__menu-hamburguer {
     display: flex;
     align-items: center;
 }
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
